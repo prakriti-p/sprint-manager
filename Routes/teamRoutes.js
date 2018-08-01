@@ -26,19 +26,19 @@ var routes = function(Team) {
     });
 
     teamRouter.route('/team/:teamId')
-    .get(function(request, response) {
-        response.json(request.member);
-    })
-    .post() 
-    .put(function(request, response) {
-        
-    })
-    .patch(function(request, response){
-        
-    })
-    .delete(function(request, response) {
-        
-    });
+        .get(function(request, response) {
+            response.json(request.member);
+        })
+        .post() 
+        .put(function(request, response) {
+            
+        })
+        .patch(function(request, response){
+            
+        })
+        .delete(function(request, response) {
+            
+        });
     return teamRouter;
 }
  
